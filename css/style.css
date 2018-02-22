@@ -1,0 +1,328 @@
+@import url(flexboxgrid.css);
+@import url(normalize.css);
+@import url(fontello.css);
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('fonts/Roboto-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src:  url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf')  format('truetype'),
+  url('fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('fonts/Roboto-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src:  url('fonts/Roboto-Bold.woff') format('woff'), url('fonts/Roboto-Bold.ttf')  format('truetype'),
+  url('fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('fonts/Roboto-Black.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: 
+  url('fonts/Roboto-Black.woff') format('woff'), url('fonts/Roboto-Black.ttf')  format('truetype'), 
+  url('fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/OpenSans-Bold.woff') format('woff'), url('fonts/OpenSans-Bold.ttf')  format('truetype'), url('fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}  
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+/*=====header========*/
+header {
+  background-image: url(../img/header-background.jpg);
+}
+.webinar-date div {
+  display: inline-block;
+  border: solid 1px #ffff33;
+  color: #ffff33;
+  font: 18px 'Roboto-Regular';
+  margin-left: -5px;
+  padding: 20px;
+  margin-top: 40px;
+}
+.webinar-title {
+  font: 24px 'Roboto-Regular';
+  color:#9f9fa0;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.webinar-carrer {
+  font: 42px 'Roboto-Regular';
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.webinar-cpa {
+  font: 24px 'Roboto-Regular';
+  color: #ffffff;
+  margin-top: 30px;
+}
+.webinar-algoritms {
+  font: 16px 'Roboto-Regular';
+  color: #ffffff;
+  margin-top: 35px;
+}
+.registration {
+  background-color: #ffffff;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 130px;
+}
+.data {
+  font: 24px 'Roboto-Bold';
+  margin: 30px;
+  padding-top: 40px;
+  width: 80%;
+}
+form .input {
+  margin-bottom: 10px;
+}
+.input input {
+  height: 40px;
+  padding-left: 15px;
+  font: 14px 'Roboto-Bold';
+  width: 80%;
+  border-radius: 5px;
+  border: solid 1px #e5e5e5;
+}
+.agreement {
+  font: 14px 'Roboto-Regular';
+  color:#7a7a7a;
+  width: 80%;
+  margin: 25px auto;
+}
+.participate button {
+  font: 18px 'Roboto-Regular';
+  color: #000000;
+  background-color: #fee500;
+  border: none;
+  padding: 25px 60px;
+  margin-bottom: 45px;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+}
+/*===================*/
+/*======main=========*/
+.main-wrap {
+  text-align: center;
+  margin: 85px 0 100px 0;
+}
+.main-title {
+  font: 36px 'Roboto-Bold';
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.main-diamond {
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.main-description {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.text-container {
+  font: 16px 'Roboto-Regular';
+  padding: 0 35px;
+}
+main .participate {
+  text-align: center;
+}
+main .participate button {
+  font: 14px 'OpenSans-Bold';
+  padding: 15px 45px;
+  outline: none;
+}
+.why-we {
+  margin-top: 120px;
+  padding-top: 110px;
+  height: 900px;
+  background-image: url(../img/background-why-we.png);
+  background-position: center;
+  position: relative;
+}
+.why-we-title {
+  font: 36px 'Roboto-Black';
+}
+.school-arb, .experience, .cpa-networks, .coaches  {
+  font: 36px 'Roboto-Black';
+  color: #feda00;
+  max-width: 300px;
+  width: 100%;
+}
+.students {
+  font: 36px 'Roboto-Black';
+  color: #feda00;
+  max-width: 250px;
+  width: 100%;
+}
+.experience span, .cpa-networks span, .coaches span, .students span {
+  font: 14px 'Roboto-Bold';
+  color: #000000;
+  display: block;
+}
+.school-arb {
+  margin-top: 60px;
+}
+.experience {
+  position: absolute;
+  left: 400px;
+  top: 310px;
+}
+.cpa-networks {
+  position: absolute;
+  left: 420px;
+  top: 520px;
+}
+.coaches {
+  position: absolute;
+  left: 760px;
+  top: 640px;
+}
+.students {
+  position: absolute;
+  left: 1000px;
+  top: 540px;
+}
+.speaker-info {
+  background-color: #ffffff;
+}
+.speaker {
+  background-image: url(../img/speaker-background.jpg);
+  background-position-x: center;
+}
+.speaker .wrapper {
+  padding-bottom: 95px;
+}
+.speaker-title {
+  font: 36px 'Roboto-Bold';
+  margin: 0 0 0 50%;
+  padding-top: 90px;
+  color: #ffffff; 
+}
+.name-surname {
+  font: 24px 'Roboto-Bold';
+  margin: 65px 0 0 85px; 
+}
+.text {
+  font: 16px 'Roboto-Regular';
+  margin: 30px 0 0 85px; 
+}
+.speaker-foto img {
+  max-height: 100%;
+}
+/*====footer=====*/
+.socials {
+  margin-top: 35px; 
+  text-align: right;
+  font-size: 20px;
+}
+.socials a {
+  padding-right: 10px; 
+  color: #313131;
+  text-decoration: none;
+}
+.menu ul {
+  list-style: none;
+  font: 16px 'Roboto-Regular';
+}
+.menu li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #a6a6a6;
+}
+.menu li {
+  text-decoration: none;
+  display: inline-block;
+  color: #a6a6a6;
+  padding-right: 8px;
+}
+.contacts {
+  padding-top: 16px;
+  color: #161616;
+  text-align: right;
+}
+.contacts span {
+  padding-left: 15px;
+}
+/*==============*/
+@media only screen and (max-width: 1200px) {
+  .why-we {
+    background-image: none;
+    background-color: #a6a6a6;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .experience, .cpa-networks, .coaches, .students {
+    position: static;
+    max-width: 100%;
+  }
+  .school-arb {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+  .speaker-foto img {
+    max-width: 100%;
+  }
+  .menu li {
+    display: block;
+    margin: 5px 0;
+  }
+  nav li:nth-child(even) {
+    display: none;
+  }
+  .contacts span {
+    display: block;
+    margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .speaker-title {
+    margin: 0 auto;
+  }
+  .name-surname, .text {
+    margin: 30px 15px 0;
+  }  
+}
